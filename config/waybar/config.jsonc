@@ -28,8 +28,12 @@
         "custom/padd",
         "custom/l_end",
         "tray",
+        "custom/smallspacer",
+        "custom/smallspacer",
         "pulseaudio/slider",
         "clock",
+        "custom/smallspacer",
+        "custom/smallspacer",
         "custom/notification",
         "custom/padd"
     ],
