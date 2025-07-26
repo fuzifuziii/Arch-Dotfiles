@@ -23,7 +23,7 @@ window#waybar {
 }
 
 #language {
-    color: #000000;
+    color: #A1BDCE;
 }
 
 tooltip {
@@ -202,7 +202,7 @@ tooltip {
     background: rgba(23, 23, 23, 0.0);
     opacity: 1;
     margin: 3px 0px 0px 0px;
-    padding-left: 10px;
+    padding-left: 7px;
     padding-right: 10px;
     border: none;
 
@@ -213,11 +213,11 @@ tooltip {
     font-size: 17px;
     font-family: "JetBrains Mono Nerd Font";
     color: #A1BDCE;
-    background: rgba(22, 19, 32, 0.0);
+    background: rgba(23, 23, 23, 0.0);
     opacity: 1;
     margin: 3px 0px 0px 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 #cpu {
@@ -283,7 +283,9 @@ tooltip {
     opacity: 0.1
 }
 
-#tray,
+#tray {
+    padding-right: 1px;
+}
 #custom-updates,
 #custom-wallchange,
 #custom-wbar,
@@ -325,7 +327,7 @@ tooltip {
     background: #A1BDCE;
     background-color: transparent;
     box-shadow: none;
-    margin-right: 7px;
+    margin-right: 5px;
 }
 
 #backlight-slider trough,
